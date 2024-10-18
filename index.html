@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaintech</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/3c5e0192db.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="w-100vw bg-black">
+
+<!-- ---------------navbar---------------- -->
+
+<nav class="max-w-[1200px] flex justify-between mx-auto p-7">
+    <div>
+      <img class="cursor-pointer" src="assests/Group.png" alt="Logo">
+    </div>
+    
+    
+    <div class="md:hidden block" style="color:white; font-size: 30px;" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    
+    
+    <div id="menu-nav" class="menu-nav bg-gray-500 w-[250px] absolute top-0 right-0 h-[100%] translate-x-full transition-transform duration-300">
+      <ul class="flex flex-col text-white gap-7 text-[22px] font-semibold pt-[10px] ml-5">
+        <li id="hideMenu"><i class="fa-solid fa-x"></i></li>
+        <li class="text-[#00FFA7]">Company</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Services</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Business Models</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Blogs</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Contact Us</li>
+      </ul>
+    </div>
+    
+    
+    <div class="flex justify-center items-center hidden md:block">
+      <ul class="flex text-white gap-7 lg:gap-12 text-[18px] font-semibold">
+        <li class="text-[#00FFA7]">Company</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Services</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Business Models</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Blogs</li>
+        <li class="hover:text-[#00FFA7] duration-500 cursor-pointer">Contact Us</li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- -------------------navbar-end-------------------- -->
+
+<!-- -----------------------hero-section-------------------- -->
+
+        <section class="hero w-100vw h-100vh bg-black py-[100px]">
+            <div class="mx-auto text-center flex flex-col">
+
+                <div class="text-white font-black text-[60px] md:text-[100px]">
+                    WELCOME <br>
+                    <div class="text-white font-black text-[60px] md:text-[100px] mt-[-30px]">
+                        TO <span class="bg-gradient-to-r from-[#FFFF00] to-[#00FFA7] text-transparent bg-clip-text">CHAINTECH</span>
+                    </div>
+                </div>
+                
+                <p class="text-white text-[14px] md:text-[18px] font-medium mb-[50px] p-2 sm:p-0">From square one to engineering excellence! PixelPlex assists in full-cycle software <br> development, jumps in to take it over, or brings dedicated top-demanded skills.</p>
+
+                <div class="flex items-center justify-center">
+                    <button class="bg-white text-black rounded-full px-5 py-2 flex items-center justify-center text-[14px] md:text-[18px] font-semibold hover:bg-[#00FFA7] duration-500">Get Started 
+                        <div class="bg-black rounded-full ml-5">
+                            <img class="p-1" src="assests/arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+<!-- -----------------------hero-section-end-------------------- -->
+    </header>
+    
+<!-- ---------------services-section-------------- -->
+
+<section class="w-100vw">
+    <div class="max-w-[1200px] p-5 md:p-1 mx-auto my-[80px]">
+        <div>
+            <div class="text-[30px] md:text-[50px] font-semibold">Services We Offer</div>
+            <div class="flex flex-col md:flex-row  justify-between">
+                <p class="text-[14px] md:text-[18px] font-medium">Discover the digital possibilities for your brand with our comprehensive suite of services.
+                </p>
+                <div class="flex md:justify-center items-center my-5 md:m-0">
+                    <div>
+                        <img src="assests/arrow_back_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </div>
+                    <div class="bg-black rounded-full ml-5">
+                        <img class="p-1" src="assests/arrow_forward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 mt-[25px]">
+
+<!-- ---------------services-items------------------ -->
+
+            <div class="border-[2px] border-black rounded-xl bg-[#2BFF8A] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center max-w-[261px] mx-auto">
+                        <img class="w-[100%]" src="assests/design-prototyping-tool-web-mobile-apps 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#00F0FF] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center max-w-[261px] mx-auto">
+                        <img class="w-[100%]" src="assests/4494868 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#FC5959] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center">
+                        <img src="assests/9646c1361705d0d16e 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#2D45E6] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center">
+                        <img src="assests/2895987 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#2BFF8A] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center max-w-[261px] mx-auto">
+                        <img class="w-[100%]" src="assests/design-prototyping-tool-web-mobile-apps 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#00F0FF] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center max-w-[261px] mx-auto">
+                        <img class="w-[100%]" src="assests/4494868 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#FC5959] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center">
+                        <img src="assests/9646c1361705d0d16e 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="border-[2px] border-black rounded-xl bg-[#2D45E6] bg-opacity-15">
+                <div class="flex ml-3 items-center gap-2 py-[9px]">
+                    <div class="w-[36px]"><img class="w-[100%]" src="assests/logo.png" alt=""></div>
+                    <span class="font-semibold text-[15px]">Join Development </span>
+                </div>
+                <hr class="border-[1px] border-black">
+                <div class="text-center ">
+                    <div class="font-semibold text-[23px] py-7">Blockchain  <br>Development </div>
+                    <div class="flex justify-center">
+                        <img src="assests/2895987 1.png" alt="">
+                    </div>
+                    <hr class="border-[1px] border-black ">
+                    <footer class="flex justify-end">
+                        <button class="bg-white text-black rounded-full px-3 py-1 m-3 flex items-center justify-center text-[14px] font-semibold border-[2px] border-black hover:bg-black hover:text-white duration-500">Get Started 
+                            <img class="ml-3" src="assests/Group 1000001275.png" alt="">
+                        </button>
+                    </footer>
+                </div>
+            </div>
+            
+
+<!-- ---------------services-items-end----------------- -->
+
+        </div>
+    </div>
+</section>
+
+<!-- ---------------services-section-end------------- -->
+
+<!-- -----------------footer------------------- -->
+
+<footer class="w-100vw bg-black text-white text-center">
+    <div class=" max-w-[1200px] mx-auto">
+        <div class="pt-12 pb-9 flex items-center justify-center">
+            <img src="assests/Group.png" alt="">
+        </div>
+        <hr class="bg-[#5E5E5E]">
+        <div class="py-9 text-[#98A6AC] font-medium text-[14px]">
+            <p>© 2024 All Rights Reserved -  Chaintech Network</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- -----------------footer-end------------------ -->
+
+
+
+
+
+
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const menuNav = document.getElementById('menu-nav');
+    const hideMenu = document.getElementById('hideMenu');
+  
+    
+    menuToggle.addEventListener('click', () => {
+      menuNav.classList.toggle('translate-x-full');
+      menuNav.classList.toggle('translate-x-0');
+    });
+  
+    
+    hideMenu.addEventListener('click', () => {
+      menuNav.classList.add('translate-x-full');
+      menuNav.classList.remove('translate-x-0');
+    });
+  </script>
+
+</body>
+</html>
